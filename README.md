@@ -1,12 +1,5 @@
-## ============================
-## .
-## .  Name: apiMailer
-## .  Author: https://github.com/edinthehead
-## .
-## ============================
-
-
-
+## apiMailer
+#  Author: https://github.com/edinthehead
 
 
 1. Installation
