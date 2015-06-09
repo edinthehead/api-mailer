@@ -1,8 +1,7 @@
 ## ============================
 ## .
 ## .  Name: apiMailer
-## .  Author: Edouard Touil
-## .  email: e.touil@live.fr
+## .  Author: https://github.com/edinthehead
 ## .
 ## ============================
 
