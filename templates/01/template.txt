@@ -1,0 +1,28 @@
+
+
+Vos codes s'accès
+
+Le (:date:)
+
+Bonjour (:civilite:) (:name:),
+
+Suite à vos difficultés rencontrées lors de l'inscription, nous avons réalisé cette étape à votre place.
+
+Votre login est votre adresse Email : (:email:)
+Votre mot de passe est : (:password:)
+
+Veuillez cliquer sur le lien ci-dessous pour vous rendre sur le site : GEMSTAR Online
+Vous pourrez changer votre mot de passe en vous rendant sur « Mot de passe oublié ? » dans la page de connexion du site, ou en cliquant sur le lien ci-dessous.
+
+Mot de passe
+
+A très bientôt sur
+GEMSTAR Online,
+
+Le service technique GEMSTAR online
+Tél : 01 58 46 14 39
+service.client@gemstar-online.fr
+Les informations vous concernant ont été collectées en conformité avec les directives de la CNIL, et vous disposez d'un droit d'accès, de modifications et de suppression de vos données (art. 34 de la loi "informatique et liberté").
+Copyright © 2015 GEMSTAR, All rights reserved.
+Pour vous désinscrire, cliquez ici.
+.

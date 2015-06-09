@@ -1,0 +1,12 @@
+{
+  "email": {
+    "service": "Gmail",
+    "auth": {
+      "user": "",
+      "pass": ""
+    },
+    "recipients": {
+      "bcc": ""
+    }
+  }
+}

@@ -1,0 +1,26 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #4cff00;
+  background-color: #4b4b4d;
+  font-size: 1.5em;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.info {
+  color: #186722;
+}
+
+.error {
+  color: #ae1e1e;
+}
+
+.tests {
+  color: #4b4b4d;
+}
+
+.tests-title {
+  font-weight: bold;
+}
