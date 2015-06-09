@@ -1,7 +1,3 @@
-## apiMailer
-#  Author: https://github.com/edinthehead
-
-
 1. Installation
 ===============
 
