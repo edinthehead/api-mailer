@@ -3,18 +3,23 @@
   "version": "0.0.1",
   "description": "API to send E-mails",
   "main": "Gruntfile.js",
-  "author": "Edouard Touil",
+  "author": "https://github.com/edinthehead",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edinthehead"
+  },
   "dependencies": {
     "bind": "~0.1.7",
     "body-parser": "~1.8.1",
     "connect-timeout": "~1.4.0",
     "express": "~4.9.0",
+    "jade": "~1.6.0",
     "moment": "^2.8.3",
     "morgan": "~1.3.0",
+    "multer": "^0.1.8",
     "nodemailer": "~1.3.0",
     "q": "~1.0.1",
-    "underscore": "~1.7.0",
-    "jade": "~1.6.0"
+    "underscore": "~1.7.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
