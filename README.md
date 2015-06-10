@@ -14,20 +14,20 @@
 
   Éditer le fichier "/config/config.json"
 
-  {
-    "email": {
-      "service": "Gmail",
-      "auth": {
-        "user": "[compte de test]@gmail.com",
-        "pass": "[xxxxxxxxx]"
-      },
-      "recipients": {
-        "bcc": "[bcc-recipient]"
+    {
+      "email": {
+        "service": "Gmail",
+        "auth": {
+          "user": "[compte de test]@gmail.com",
+          "pass": "[xxxxxxxxx]"
+        },
+        "recipients": {
+          "bcc": "[bcc-recipient]"
+        }
       }
     }
-  }
 
-  Remplacer les données [compte de test] & [xxxxxxxxx] par celles du compte utilisé pour l'envoi.
+  Remplacer les données [compte de test] & [xxxxxxxxx] par celles du compte utilisé pour l'envoi (testé avec Gmail).
   Remplacer [recipient] par l'adresse e-mail du destinataire.
   Remplacer [bcc-recipient] par l'adresse e-mail d'un destinataire devant être en copie carbonne des emails envoyés.
 
@@ -73,31 +73,31 @@
   
   A la racine de ce dossier se trouve un fichier "list.json" de la forme suivante :
   
-  [
-    {
-      "id": 1,
-      "name": "Envoi login + mdp",
-      "title": "Vos codes d'accès",
-      "path": "01/template.html"
-    }
-  ]
+    [
+      {
+        "id": 1,
+        "name": "Envoi login + mdp",
+        "title": "Vos codes d'accès",
+        "path": "01/template.html"
+      }
+    ]
   
   Pour ajouter un second template, le déclarer comme suit :
   
-  [
-    {
-      "id": 1,
-      "name": "Envoi login + mdp",
-      "title": "Vos codes d'accès",
-      "path": "01/template.html"
-    },
-    {
-       "id": 2,
-        "name": "Mon nouveau template",
-        "title": "Le template",
-        "path": "02/template.html"
-    }
-  ]
+    [
+      {
+        "id": 1,
+        "name": "Envoi login + mdp",
+        "title": "Vos codes d'accès",
+        "path": "01/template.html"
+      },
+      {
+         "id": 2,
+          "name": "Mon nouveau template",
+          "title": "Le template",
+          "path": "02/template.html"
+      }
+    ]
 
   - Le paramètre @id doit être unique dans la liste. 
     Il correspond au nom du dossier du template à placer dans "/templates".
@@ -133,15 +133,13 @@
   
   Pour définir une variable à binder dans le template, la notation suivante devra être utilisé : (:variable:)
   
-  Exemple : En plaçant (:email:) dans les templates HTML et TEXTE, cette donnée sera remplacée lors de l'envoi de l'e-mail par la donnée postée "options.binding.email". 
+  Exemple : En plaçant (: email :) dans les templates HTML et TEXTE, cette donnée sera remplacée lors de l'envoi de l'e-mail par la donnée postée "options.binding.email". 
 
 
 
 
 ANNEXES
 =======
-
-  Penser à installer le plugin md de WebStorm pour une lecture plus agréable de ce message
 
   Autres solutions possibles :
     - http://mandrillapp.com
