@@ -30,7 +30,7 @@ $(function () {
 
       $.ajax({
         type: "POST",
-        url: "http://localhost:3000/",
+        url: "http://10.10.1.26:3000/",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         data: JSON.stringify(options),

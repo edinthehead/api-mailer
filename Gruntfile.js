@@ -72,4 +72,3 @@ module.exports = function (grunt) {
   grunt.registerTask('serve', ['express:dev', 'watch']);
 
 };
-

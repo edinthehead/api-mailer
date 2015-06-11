@@ -70,7 +70,7 @@ var processing = function (recipient, config, template) {
 bindContent = function (type, template) {
   var deferred = q.defer();
   var prefixe = parseInt(template.id)<9?'0':'';
-  var filename = path.join(__dirname, './../../templates/' + prefixe + template.id + '/template.' + type);
+  var filename = path.join(__dirname, '/../../templates/' + prefixe + template.id + '/template.' + type);
   bind.toFile(
     filename,
     template.datas,

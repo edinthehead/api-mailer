@@ -2,7 +2,7 @@
   "email": {
     "service": "Gmail",
     "auth": {
-      "user": "",
+      "user": "@gmail.com",
       "pass": ""
     },
     "recipients": {

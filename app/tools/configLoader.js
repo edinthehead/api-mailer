@@ -8,10 +8,10 @@ var
 module.exports = {
   get: function () {
     var deferred = q.defer();
-    fs.readFile(__dirname + './../../config/config.json', function (error, response) {
+    var fileName = __dirname + '/../../config/config.json';
+    fs.readFile(fileName, function (error, response) {
       if (error) deferred.reject(error);
-      // console.log(JSON.parse(response));
-      deferred.resolve(JSON.parse(response));
+      deferred.resolve(response);
     });
     return deferred.promise;
   }
